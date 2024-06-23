@@ -82,7 +82,6 @@ Add the homepage field and update the scripts section:
 
 ```json
 {
-{
   "name": "testing-array-methods-in-react",
   "version": "0.1.0",
   "private": true,
