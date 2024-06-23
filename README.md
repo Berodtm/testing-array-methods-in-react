@@ -66,13 +66,13 @@ npm install
 Add the base option to your vite.config.js file:
 
 ```javascript
-// vite.config.js
+
 import { defineConfig } from ‘vite’;
 import react from ‘@vitejs/plugin-react’;
 
 export default defineConfig({
 plugins: [react()],
-base: ‘/testing-array-methords/’, // Replace with your repository name
+base: '/testing-array-methods-in-react/',
 });
 ```
 
@@ -83,10 +83,10 @@ Add the homepage field and update the scripts section:
 ```json
 {
 {
-  "name": "testing-array-methords",
+  "name": "testing-array-methods-in-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Berodtm.github.io/testing-array-methords",
+  "homepage": "https://Berodtm.github.io/testing-array-methods-in-react",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -95,7 +95,8 @@ Add the homepage field and update the scripts section:
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    // your dependencies
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
