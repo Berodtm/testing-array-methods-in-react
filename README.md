@@ -82,25 +82,26 @@ Add the homepage field and update the scripts section:
 
 ```json
 {
-“name”: “testing-array-methords”,
-“version”: “0.1.0”,
-“private”: true,
-“homepage”: “https://Berodtm.github.io/testing-array-methords”,
-“scripts”: {
-“dev”: “vite”,
-“build”: “vite build”,
-“preview”: “vite preview”,
-“predeploy”: “npm run build”,
-“deploy”: “gh-pages -d dist”
-},
-“dependencies”: {
-// your dependencies
-},
-“devDependencies”: {
-“gh-pages”: “^3.2.3”,
-“vite”: “^2.0.0”,
-“@vitejs/plugin-react”: “^1.0.0”
-}
+{
+  "name": "testing-array-methords",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://Berodtm.github.io/testing-array-methords",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    // your dependencies
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "vite": "^2.0.0",
+    "@vitejs/plugin-react": "^1.0.0"
+  }
 }
 ```
 
