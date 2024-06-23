@@ -130,20 +130,20 @@ git push origin main
 
 Go to your repository on GitHub, navigate to the Settings tab, and scroll down to the Pages section. Select the gh-pages branch as the source and save.
 
-How to Make Edits
+## How to Make Edits
 
-	1.	Clone the Repository
+1.	Clone the Repository
 
 ```sh
 git clone https://github.com/Berodtm/testing-array-methords.git
 cd testing-array-methords
 ```
 
-	2.	Make Your Changes
+2.	Make Your Changes
 
 Edit the files as needed.
 
-	3.	Commit and Push Changes
+3.	Commit and Push Changes
 
 ```sh
 git add .
@@ -151,7 +151,7 @@ git commit -m “Your commit message”
 git push origin main
 ```
 
-	4.	Deploy Changes
+4.	Deploy Changes
 
 ```sh
 npm run deploy
