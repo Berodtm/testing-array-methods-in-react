@@ -4,19 +4,19 @@ This project demonstrates the usage of various array methods in a React applicat
 
 ## Technologies Used
 
-	•	React
-	•	Vite
-	•	JavaScript (ES6+)
-	•	HTML5
-	•	CSS3
-	•	gh-pages
+ - React
+ - Vite
+ - JavaScript (ES6+)
+ - HTML5
+ - CSS3
+ - gh-pages
 
 ## Array Methods Used
 
 The project makes use of the following array methods:
 
-	•	filter: Used to filter the book list based on user input.
-	•	map: Used to iterate over the filtered book list and render the book information.
+ - filter: Used to filter the book list based on user input.
+ - map: Used to iterate over the filtered book list and render the book information.
 
 ### Example
 
